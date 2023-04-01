@@ -9,5 +9,5 @@ def string_reverse(text, reverse_text):
         
 index = ' '
 reverse_text = []
-text = input().split()
+object.__str__(int(input()))
 print(string_reverse(text, reverse_text))
