@@ -1,13 +1,9 @@
-def string_reverse(text, reverse_text):
+def string_reverse(text):
+    reverse_text = ''
     for i in text:
-        index = i
-        if index == [-1]:
-            reverse_text.append(index)
-        else:
-            continue
+        reverse_text = i + reverse_text
+    return reverse_text
 
-        
-index = ' '
-reverse_text = []
-object.__str__(int(input()))
-print(string_reverse(text, reverse_text))
+text = input("Enter a string to reverse: ")
+print(string_reverse(text))
+
